@@ -1,6 +1,7 @@
 import './bootstrap';
 import '../css/app.css';
-
+import '../_metronic/assets/sass/style.scss'
+import '../_metronic/assets/sass/style.react.scss'
 import { createRoot } from 'react-dom/client';
 import { createInertiaApp } from '@inertiajs/react';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
